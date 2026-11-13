@@ -1,0 +1,14 @@
+app = 'apk-railway-server-1-0'
+primary_region = 'sin'
+
+[env]
+  DATA_DIR = '/data'
+
+[mounts]
+  source = 'data'
+  destination = '/data'
+
+[[vm]]
+  memory = '512mb'
+  cpu_kind = 'shared'
+  cpus = 1
